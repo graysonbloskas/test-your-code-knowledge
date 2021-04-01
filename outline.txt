@@ -1,0 +1,16 @@
+START PAGE:
+step 1. First page contains "Test Your Knowledge of Javascript" h1 tag. 
+step 2. Parargaph under h1. 
+step 3: start button. 
+step 4. add "View High Scores" to the top left corner. 
+step 5. Add Timer to the top right corner. 
+step 6. make start button work. 
+
+Hide start component (screen) on button press
+reveal question title and options 
+create button for each option
+make new question appear when option is selected
+have an end screen where it prompts them to give initials
+--add button for entering high Scores
+---upon pressing hs button, take to high score page. 
+

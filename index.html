@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Test Your Code Knowledge</title>
+    <link rel="stylesheet" href="./assets/style.css"/>
+</head>
+<body>
+    <div class="high-scores"><a href="highscores.html">High Scores</a></div>
+    <div class="timer">Time: <span id="time">0</span></div>
+
+    <div class="container">
+        <div id="start_screen" class="start">
+            <h1>Test Your JavaScript Knowledge</h1>
+            <p>Think you know JavaScript? Well, you never know until you test yourself! Take this short quiz and find out just how well you know this coding language.</p>
+            <button id="startTest">Start Quiz</button>
+        </div>
+        <div id="questions" class="hidden">
+            <h2 id="question-title"></h2>
+            <div id="options" class="options"></div>
+        </div>
+        <div id="end-page" class="hidden">
+            <h2>FINISHED</h2>
+            <p>Your final score is: </p>
+            <form>
+                <input id="name-field" value="" type="text">
+                <button onclick="submit()">Submit</button>
+            </form>
+        </div>
+    </div>
+    <script src="questions.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
