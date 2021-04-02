@@ -10,11 +10,11 @@
 </head>
 <body>
     <div class="high-scores"><a href="highscores.html">High Scores</a></div>
-    <div class="timer">Time: <span id="time">0</span></div>
+    <div class="timer">Time: <span id="timer-time"></span></div>
 
     <div class="container">
         <div id="start_screen" class="start">
-            <h1>Test Your JavaScript Knowledge</h1>
+            <h1 class="header">Test Your JavaScript Knowledge</h1>
             <p>Think you know JavaScript? Well, you never know until you test yourself! Take this short quiz and find out just how well you know this coding language.</p>
             <button id="startTest">Start Quiz</button>
         </div>
@@ -24,10 +24,13 @@
         </div>
         <div id="end-page" class="hidden">
             <h2>FINISHED</h2>
-            <p>Your final score is: </p>
+                <p>Your final score is: 
+                    <span id="final-score"></span>
+                </p>
+                <p>Enter your name below</p>
             <form>
                 <input id="name-field" value="" type="text">
-                <button onclick="submit()">Submit</button>
+                <button onclick="saveScore(event)">Submit</button>
             </form>
         </div>
     </div>

@@ -1,3 +1,4 @@
+// the questions to be pulled for the quiz
 var questions = [
     {
         title: "What are strings used for?",
@@ -24,9 +25,4 @@ var questions = [
         options: ["JavaScript Object Nominal", "JavaScript Object Notepad", "JavaScript Object Netting", "JavaScript Object Notation"],
         answerIndex: 3   
     },
-    {
-        title: "",
-        options: "",
-        answerIndex: ""
-    }
 ]

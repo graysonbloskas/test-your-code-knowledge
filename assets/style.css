@@ -1,7 +1,59 @@
 .container {
-    background-color: aqua;
+    width: 500px;
+    margin: auto;
+    border: 3px solid #209b70;
+    justify-content: center;
+    text-align: center;
+    padding: 50px;
 }
-
+.header {
+    background-color: white;
+    padding: 15px 32px;
+}
 .hidden {
     display: none;
+}
+
+.button {
+    justify-content: center;
+}
+
+#start_screen {
+    text-align: center;
+
+}
+
+#questions {
+    text-align: center;
+}
+
+#options {
+    justify-content: center;
+
+}
+
+button {
+  background-color: #209b70;
+  color: white;
+  border-radius: 15px;
+  border: none;
+  padding: 20px 30px;
+  text-align: center;
+  font-size: 16px;
+  margin: 3px 3px;
+}
+
+#Highscores {
+    text-align: center;
+
+}
+
+.high-scores {
+    font-size: 24px;
+}
+
+.timer {
+    text-align: end;
+    justify-content: flex-end;
+    font-size: 20px;
 }
